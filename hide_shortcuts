@@ -35,6 +35,7 @@ apps=(
   "org.gnome.Evolution"
   "org.gnome.Characters"
   "org.gnome.SoundRecorder"
+  "nixos-manual"
 )
 
 dest="${HOME}/.local/share/applications"
