@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+Cursor:
+git clone https://github.com/yeyushengfan258/Afterglow-Cursors
+chmod +x install.sh 
+./install.sh 
+
+Tema:
+git clone https://github.com/yeyushengfan258/Reversal-gtk-theme
+chmod +x install.sh
+./install.sh -l
+
+Icone:
+git clone https://github.com/yeyushengfan258/McMuse-icon-theme
+chmod +x install.sh -c -blue
+./install.sh -c -blue
+
+    gsettings set org.gnome.desktop.interface cursor-theme "Afterglow-cursors"
+    gsettings set org.gnome.desktop.interface icon-theme "McMuse-blue-dark"
+    gsettings set org.gnome.desktop.interface gtk-theme "Reversal"
+    gsettings set org.gnome.shell.extensions.user-theme name "Reversal"
+
+Extensões:
+- vitals
+- impatiente
+- user themes
+- blur my shell
+- dash to dock
